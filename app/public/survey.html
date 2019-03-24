@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey - FriendFinder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Survey Questions</h1>
+                <h4>Take this quick survey to find your perfect match.</h4>
+                <p>5 = strongly agree, and 1 = strongly disagree.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group">
+                        <input id="name" type="text" class="form-control" placeholder="Name (Required)">
+                    </div>
+                    <div class="form-group">
+                        <input id="photo" type="text" class="form-control"
+                            placeholder="Link to Profile Photo (Required)">
+                    </div>
+                    <div class="form-group">
+                        <label for="question1">Your mind is always buzzing with unexplored ideas and plans.</label>
+                        <select class="form-control" id="question1">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question2">Generally speaking, you rely more on your experience than your
+                            imagination.</label>
+                        <select class="form-control" id="question2">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question3">You find it easy to stay relaxed and focused even when there is some
+                            pressure.</label>
+                        <select class="form-control" id="question3">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question4">You rarely do something just out of sheer curiosity.</label>
+                        <select class="form-control" id="question4">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question5">People can rarely upset you.</label>
+                        <select class="form-control" id="question5">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question6">It is often difficult for you to relate to other people’s
+                            feelings.</label>
+                        <select class="form-control" id="question6">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question7">In a discussion, truth should be more important than people’s
+                            sensitivities.</label>
+                        <select class="form-control" id="question7">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question8">You rarely get carried away by fantasies and ideas.</label>
+                        <select class="form-control" id="question8">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question9">You think that everyone’s views should be respected regardless of whether
+                            they
+                            are supported by facts or not.</label>
+                        <select class="form-control" id="question9">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question10">You feel more energetic after spending time with a group of
+                            people.</label>
+                        <select class="form-control" id="question10">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-warning" button id="submit">Submit</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer">
+                    <a href="/api/friends" style="color:rgb(211, 150, 37)">FriendFinder</a>
+                    <span>|</span>
+                    <a href="https://github.com/ashbshaw/FriendFinder" style="color:rgb(211, 150, 37)">GitHub
+                        Repository</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Confirms survey completion -->
+        <!--https://getbootstrap.com/docs/3.3/javascript/#modals-->
+        <div class="modal fade" tabindex="-1" role="dialog" id="friend_modal" >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color:rgb(86, 112, 121)">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">My New Best Friend!</h4>
+                    </div>
+                    <div class="modal-body" style="background-color:rgb(86, 112, 121)">
+                        <p>My new best friend is <span id="friend_name"></span></p>
+                        <img id="friend_image" src="">
+                    </div>
+                    <div class="modal-footer" style="background-color:rgb(86, 112, 121)">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- JQuery and JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $("#submit").on("click", function (event) {
+        event.preventDefault();
+        var newFriend = {
+            name: $("#name").val().trim(),
+            photo: $("#photo").val().trim(),
+            scores: [
+                $("#question1").val(),
+                $("#question2").val(),
+                $("#question3").val(),
+                $("#question4").val(),
+                $("#question5").val(),
+                $("#question6").val(),
+                $("#question7").val(),
+                $("#question8").val(),
+                $("#question9").val(),
+                $("#question10").val()
+            ],
+        };
+        // Validation 
+        if (newFriend.name === '' || newFriend.photo === '' || newFriend.scores.indexOf("empty") > 0) {
+            console.log("Please complete all fields.");
+            alert("Please complete all fields, or no best friend for you!");
+        } else {
+            $.post("/api/friends", newFriend,
+                function (data) {
+                    console.log(data);
+                    // Set the name and image of the best friend match
+                    $("#friend_name").html(data.name);
+                    $("#friend_image").attr("src", data.photo);
+                    // Shows the modal to display information
+                    $('#friend_modal').modal('toggle');
+                });
+            $("#name").val("");
+            $("#photo").val("");
+            $("#question1").val("");
+            $("#question2").val("");
+            $("#question3").val("");
+            $("#question4").val("");
+            $("#question5").val("");
+            $("#question6").val("");
+            $("#question7").val("");
+            $("#question8").val("");
+            $("#question9").val("");
+            $("#question10").val("");
+        };
+    });
+</script>
